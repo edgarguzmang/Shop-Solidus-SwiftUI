@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05ED33F285A536E00DF7D66 /* Solidus_ShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED33E285A536E00DF7D66 /* Solidus_ShopApp.swift */; };
+		E05ED343285A537000DF7D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05ED342285A537000DF7D66 /* Assets.xcassets */; };
+		E05ED346285A537000DF7D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05ED345285A537000DF7D66 /* Preview Assets.xcassets */; };
+		E05ED34D285A53AC00DF7D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED34C285A53AC00DF7D66 /* ContentView.swift */; };
+		E05ED34F285A53B200DF7D66 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED34E285A53B200DF7D66 /* CartView.swift */; };
+		E05ED351285A53B800DF7D66 /* SweaterShopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED350285A53B800DF7D66 /* SweaterShopAppApp.swift */; };
+		E05ED353285A53BE00DF7D66 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED352285A53BE00DF7D66 /* CartManager.swift */; };
+		E05ED355285A53C300DF7D66 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED354285A53C300DF7D66 /* PaymentHandler.swift */; };
+		E05ED357285A53C800DF7D66 /* Components in Resources */ = {isa = PBXBuildFile; fileRef = E05ED356285A53C800DF7D66 /* Components */; };
+		E05ED359285A542900DF7D66 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = E05ED358285A542900DF7D66 /* Models */; };
+		E05ED35B285A549000DF7D66 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED35A285A549000DF7D66 /* Product.swift */; };
+		E05ED35D285A54EE00DF7D66 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED35C285A54EE00DF7D66 /* ProductRow.swift */; };
+		E05ED35F285A551800DF7D66 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED35E285A551800DF7D66 /* PaymentButton.swift */; };
+		E05ED361285A554200DF7D66 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED360285A554200DF7D66 /* ProductCard.swift */; };
+		E05ED363285A556E00DF7D66 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED362285A556E00DF7D66 /* ProductDetails.swift */; };
+		E05ED365285A559600DF7D66 /* CarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ED364285A559600DF7D66 /* CarButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E05ED33B285A536E00DF7D66 /* Solidus Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solidus Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05ED33E285A536E00DF7D66 /* Solidus_ShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solidus_ShopApp.swift; sourceTree = "<group>"; };
+		E05ED342285A537000DF7D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05ED345285A537000DF7D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E05ED34C285A53AC00DF7D66 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../SweaterShopApp/SweaterShopApp/Views/ContentView.swift; sourceTree = "<group>"; };
+		E05ED34E285A53B200DF7D66 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartView.swift; path = ../../SweaterShopApp/SweaterShopApp/Views/CartView.swift; sourceTree = "<group>"; };
+		E05ED350285A53B800DF7D66 /* SweaterShopAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweaterShopAppApp.swift; path = ../../SweaterShopApp/SweaterShopApp/SweaterShopAppApp.swift; sourceTree = "<group>"; };
+		E05ED352285A53BE00DF7D66 /* CartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartManager.swift; path = ../../SweaterShopApp/SweaterShopApp/CartManager.swift; sourceTree = "<group>"; };
+		E05ED354285A53C300DF7D66 /* PaymentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentHandler.swift; path = ../../SweaterShopApp/SweaterShopApp/PaymentHandler.swift; sourceTree = "<group>"; };
+		E05ED356285A53C800DF7D66 /* Components */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Components; path = ../../SweaterShopApp/SweaterShopApp/Components; sourceTree = "<group>"; };
+		E05ED358285A542900DF7D66 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = ../../SweaterShopApp/SweaterShopApp/Components/Models; sourceTree = "<group>"; };
+		E05ED35A285A549000DF7D66 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E05ED35C285A54EE00DF7D66 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		E05ED35E285A551800DF7D66 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		E05ED360285A554200DF7D66 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		E05ED362285A556E00DF7D66 /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		E05ED364285A559600DF7D66 /* CarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarButton.swift; sourceTree = "<group>"; };
+		E05ED366285A565E00DF7D66 /* Solidus-Shop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Solidus-Shop-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05ED338285A536E00DF7D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05ED332285A536E00DF7D66 = {
+			isa = PBXGroup;
+			children = (
+				E05ED33D285A536E00DF7D66 /* Solidus Shop */,
+				E05ED33C285A536E00DF7D66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05ED33C285A536E00DF7D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05ED33B285A536E00DF7D66 /* Solidus Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05ED33D285A536E00DF7D66 /* Solidus Shop */ = {
+			isa = PBXGroup;
+			children = (
+				E05ED366285A565E00DF7D66 /* Solidus-Shop-Info.plist */,
+				E05ED33E285A536E00DF7D66 /* Solidus_ShopApp.swift */,
+				E05ED34C285A53AC00DF7D66 /* ContentView.swift */,
+				E05ED34E285A53B200DF7D66 /* CartView.swift */,
+				E05ED352285A53BE00DF7D66 /* CartManager.swift */,
+				E05ED354285A53C300DF7D66 /* PaymentHandler.swift */,
+				E05ED358285A542900DF7D66 /* Models */,
+				E05ED350285A53B800DF7D66 /* SweaterShopAppApp.swift */,
+				E05ED356285A53C800DF7D66 /* Components */,
+				E05ED342285A537000DF7D66 /* Assets.xcassets */,
+				E05ED344285A537000DF7D66 /* Preview Content */,
+				E05ED35A285A549000DF7D66 /* Product.swift */,
+				E05ED35C285A54EE00DF7D66 /* ProductRow.swift */,
+				E05ED35E285A551800DF7D66 /* PaymentButton.swift */,
+				E05ED360285A554200DF7D66 /* ProductCard.swift */,
+				E05ED362285A556E00DF7D66 /* ProductDetails.swift */,
+				E05ED364285A559600DF7D66 /* CarButton.swift */,
+			);
+			path = "Solidus Shop";
+			sourceTree = "<group>";
+		};
+		E05ED344285A537000DF7D66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E05ED345285A537000DF7D66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05ED33A285A536E00DF7D66 /* Solidus Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05ED349285A537000DF7D66 /* Build configuration list for PBXNativeTarget "Solidus Shop" */;
+			buildPhases = (
+				E05ED337285A536E00DF7D66 /* Sources */,
+				E05ED338285A536E00DF7D66 /* Frameworks */,
+				E05ED339285A536E00DF7D66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solidus Shop";
+			productName = "Solidus Shop";
+			productReference = E05ED33B285A536E00DF7D66 /* Solidus Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05ED333285A536E00DF7D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E05ED33A285A536E00DF7D66 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E05ED336285A536E00DF7D66 /* Build configuration list for PBXProject "Solidus Shop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05ED332285A536E00DF7D66;
+			productRefGroup = E05ED33C285A536E00DF7D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05ED33A285A536E00DF7D66 /* Solidus Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05ED339285A536E00DF7D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ED346285A537000DF7D66 /* Preview Assets.xcassets in Resources */,
+				E05ED343285A537000DF7D66 /* Assets.xcassets in Resources */,
+				E05ED359285A542900DF7D66 /* Models in Resources */,
+				E05ED357285A53C800DF7D66 /* Components in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05ED337285A536E00DF7D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ED365285A559600DF7D66 /* CarButton.swift in Sources */,
+				E05ED35F285A551800DF7D66 /* PaymentButton.swift in Sources */,
+				E05ED353285A53BE00DF7D66 /* CartManager.swift in Sources */,
+				E05ED355285A53C300DF7D66 /* PaymentHandler.swift in Sources */,
+				E05ED361285A554200DF7D66 /* ProductCard.swift in Sources */,
+				E05ED34F285A53B200DF7D66 /* CartView.swift in Sources */,
+				E05ED351285A53B800DF7D66 /* SweaterShopAppApp.swift in Sources */,
+				E05ED363285A556E00DF7D66 /* ProductDetails.swift in Sources */,
+				E05ED35D285A54EE00DF7D66 /* ProductRow.swift in Sources */,
+				E05ED34D285A53AC00DF7D66 /* ContentView.swift in Sources */,
+				E05ED33F285A536E00DF7D66 /* Solidus_ShopApp.swift in Sources */,
+				E05ED35B285A549000DF7D66 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E05ED347285A537000DF7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E05ED348285A537000DF7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05ED34A285A537000DF7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solidus Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N6Q63UC4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Solidus-Shop-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EdgarGuzman.Solidus-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05ED34B285A537000DF7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solidus Shop/Preview Content\"";
+				DEVELOPMENT_TEAM = 5N6Q63UC4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Solidus-Shop-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EdgarGuzman.Solidus-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05ED336285A536E00DF7D66 /* Build configuration list for PBXProject "Solidus Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ED347285A537000DF7D66 /* Debug */,
+				E05ED348285A537000DF7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05ED349285A537000DF7D66 /* Build configuration list for PBXNativeTarget "Solidus Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ED34A285A537000DF7D66 /* Debug */,
+				E05ED34B285A537000DF7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05ED333285A536E00DF7D66 /* Project object */;
+}
